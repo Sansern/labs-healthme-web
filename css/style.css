@@ -13,10 +13,11 @@ Copyright 2021
 */
 
 
-/* @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800"); */
+/* Edit an embed a font here*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&display=swap');
 :root {
+    /* Edit CSS rules to specify families */
     --healthme-font-system: 'Noto Sans Thai', sans-serif
 }
 
