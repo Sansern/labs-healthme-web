@@ -12,7 +12,14 @@ Copyright 2021
 
 */
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");
+
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --healthme-font-system: 'Noto Sans Thai', sans-serif !important
+}
+
 section {
     padding: 6rem 0;
     position: relative;
@@ -204,7 +211,8 @@ section.dark,
 }
 
 #page-title .page-title>h1 {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 400;
@@ -1907,7 +1915,8 @@ Main Menu
 
 #mainMenu nav>ul>li>a {
     position: relative;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     padding: 10px 12px;
     text-transform: uppercase;
     font-size: 12px;
@@ -2001,7 +2010,8 @@ Main Menu
     font-weight: 500;
     font-style: normal;
     color: #444;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     padding: 12px 20px 12px 18px;
     display: block;
     -webkit-transition: 0.3s ease;
@@ -2066,7 +2076,8 @@ Main Menu
 }
 
 #mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     color: #000000;
     font-size: 13px;
     line-height: 14px;
@@ -3363,7 +3374,8 @@ Main Menu: Responsive
 
 .header-extras>ul>li>a:not(.btn),
 .header-extras>ul>li .topbar-dropdown>.title {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     font-size: 12px;
     position: relative;
     display: block;
@@ -4207,7 +4219,8 @@ Page Menu
     display: inline-block;
     float: none;
     padding: 0px 2px;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
 }
 
 .page-menu nav>ul>li:last-child {
@@ -4265,7 +4278,8 @@ Page Menu
     position: absolute;
     text-align: left;
     list-style: none;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     padding: 14px 20px;
     width: auto;
     top: 50px;
@@ -4627,7 +4641,8 @@ body:not(.breakpoint-xs):not(.breakpoint-sm):not(.breakpoint-md) .page-menu nav>
 }
 
 .sidebar-menu {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
 }
 
 .sidebar-menu label {
@@ -4724,7 +4739,8 @@ body {
     line-height: 1.65714286em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
     color: #3c4043;
 }
 
@@ -4870,7 +4886,8 @@ p {
     line-height: 1.7;
     letter-spacing: 0;
     color: #3c4043;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--healthme-font-system);
 }
 
 ul.bullets {
