@@ -17,7 +17,7 @@ Copyright 2021
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&display=swap');
 :root {
-    --healthme-font-system: 'Noto Sans Thai', sans-serif !important
+    --healthme-font-system: 'Noto Sans Thai', sans-serif
 }
 
 section {
@@ -211,7 +211,6 @@ section.dark,
 }
 
 #page-title .page-title>h1 {
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     font-size: 2.5rem;
     line-height: 1.2;
@@ -1915,7 +1914,6 @@ Main Menu
 
 #mainMenu nav>ul>li>a {
     position: relative;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     padding: 10px 12px;
     text-transform: uppercase;
@@ -2010,7 +2008,6 @@ Main Menu
     font-weight: 500;
     font-style: normal;
     color: #444;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     padding: 12px 20px 12px 18px;
     display: block;
@@ -2076,7 +2073,6 @@ Main Menu
 }
 
 #mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     color: #000000;
     font-size: 13px;
@@ -3374,7 +3370,6 @@ Main Menu: Responsive
 
 .header-extras>ul>li>a:not(.btn),
 .header-extras>ul>li .topbar-dropdown>.title {
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     font-size: 12px;
     position: relative;
@@ -4219,7 +4214,6 @@ Page Menu
     display: inline-block;
     float: none;
     padding: 0px 2px;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
 }
 
@@ -4278,7 +4272,6 @@ Page Menu
     position: absolute;
     text-align: left;
     list-style: none;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     padding: 14px 20px;
     width: auto;
@@ -4641,7 +4634,6 @@ body:not(.breakpoint-xs):not(.breakpoint-sm):not(.breakpoint-md) .page-menu nav>
 }
 
 .sidebar-menu {
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
 }
 
@@ -4735,11 +4727,10 @@ html {
 }
 
 body {
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.65714286em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
     color: #3c4043;
 }
@@ -4879,14 +4870,13 @@ h6:not(:last-child),
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     text-transform: none;
     line-height: 1.7;
     letter-spacing: 0;
     color: #3c4043;
-    /* font-family: "Poppins", sans-serif; */
     font-family: var(--healthme-font-system);
 }
 
